@@ -1,0 +1,11 @@
+#!/bin/bash
+read -p "enter a day:" d
+case $d in
+"monday") echo "it is monday" ;;
+"tuesday") echo "it is tuesday" ;;
+"wednesday") echo "it is wednesday" ;;
+"thursday") echo "it is thrusday" ;;
+"friday") echo "it is friday" ;;
+"saturday") echo "it is saturday" ;;
+*) echo "invalid choice" ;;
+esac
